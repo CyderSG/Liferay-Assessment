@@ -6,25 +6,21 @@
 
 ## Requirement:
 1. User interface must be responsive
-2. Modular, reusable code
-3. Micro-services based platform
-4. Highly configurable dashboards and reports
+2. Liferay-based, UI is based on MVC-Portlet
+3. Micro-services, making use of Liferay Service Builder
+4. Highly configurable portlets
 5. Multilingual
-6. Role-based authentication
-7. HTTP Request must be stored as unstructured data in some form of BigData repository
 
 ## Deliverables:
-1. Login page and working authentication
-2. Dashboard page
+1. One service builder Liferay project which provides JSON data for portlet consumption
+2. One portlet plugin project (separate from the Service Builder project) which consumes JSON data from the Remote API in above service builder API
 
 ## Technical requirement:
-1. UI framework must use Spring MVC
-2. DAO must use JPA-Hibernate
-3. Database must use MySQL or MariaDB
-4. BigData repository must use CouchDB or Cassandra
+1. UI framework must use Liferay MVC Portlet
+2. Service layer must use Liferay Service Builder, Local and Remote services. 
+3. Data source must come from CSV
 
 ## Tasks
 1. Come up with application technical design and must be able to elaborate and articular your design
 2. Complete the deliverables using the framework as mentioned in Technical requirement above
 3. Elaborate the rationalle of the code development upon completion of the item-2 above
-4. Analyse the current application flow and come up with some recommendations
