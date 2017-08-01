@@ -24,3 +24,7 @@
 1. Come up with application technical design and must be able to elaborate and articular your design
 2. Complete the deliverables using the framework as mentioned in Technical requirement above
 3. Elaborate the rationalle of the code development upon completion of the item-2 above
+
+## Sample Screen
+
+https://raw.githubusercontent.com/CyderSG/Liferay-Assessment/master/img.png
